@@ -1,0 +1,49 @@
+.player-playlist-container{
+    padding: 20px;
+    overflow: scroll;
+}
+.player-playlist-header{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.playlist-image-card{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('https://images.hdqwalls.com/wallpapers/my-best-casette-playlist-5k-za.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.playlist-body{
+    color: #ededed;
+    display: flex;
+    flex-direction: column;;
+    gap: 10px;
+}
+.playlist-body h1 {
+    font-size: 2.5rem;
+}
+
+.playlist-list-container{
+    height: 40vh;
+    overflow-y: scroll;
+}
+.playlist-list{
+    color: #dcdcdc;
+    margin-top: 30px;
+    display: flex;
+}
+.playlist-list .playlist-list-id {
+    width: 10%;
+}
+.playlist-list .playlist-list-title {
+    width: 40%;
+}
+.playlist-list .playlist-list-album {
+    width: 40%;
+}
+.playlist-list .playlist-list-duration {
+    width: 10%;
+}
